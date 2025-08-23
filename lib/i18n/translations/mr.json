@@ -1,0 +1,43 @@
+{
+  "nav.home": "होम",
+  "nav.artists": "कलाकार",
+  "nav.about": "आमच्याबद्दल",
+  "nav.contact": "संपर्क",
+  "nav.login": "लॉगिन",
+  "nav.signup": "साइन अप",
+  "nav.dashboard": "डॅशबोर्ड",
+  "nav.logout": "लॉगआउट",
+
+  "hero.title": "जिथे कला भेटते नवाचाराशी",
+  "hero.subtitle": "AI-चालित डिझाइन टूल्ससह मास्टर कारागिरांसोबत आश्चर्यकारक कस्टम कला सह-निर्मिती करा",
+  "hero.cta": "तयार करणे सुरू करा",
+  "hero.secondary": "कलाकार पहा",
+
+  "features.title": "हे कसे कार्य करते",
+  "features.ai.title": "AI सह-निर्मिती",
+  "features.ai.description": "प्रारंभिक डिझाइन संकल्पना तयार करण्यासाठी आणि कल्पनांवर पुनरावृत्ती करण्यासाठी AI सह सहकार्य करा",
+  "features.artisan.title": "प्रत्यक्ष सहकार्य",
+  "features.artisan.description": "तुमची दृष्टी जिवंत करणाऱ्या कुशल कारागिरांसोबत थेट काम करा",
+  "features.storytelling.title": "डिजिटल कथाकथन",
+  "features.storytelling.description": "निर्मिती प्रक्रियेचे दस्तऐवजीकरण करा आणि तुमच्या कलेची अनोखी कथा सामायिक करा",
+  "features.insights.title": "व्यावसायिक अंतर्दृष्टी",
+  "features.insights.description": "कामगिरी ट्रॅक करा आणि तुमच्या कस्टम कला प्रकल्पांमध्ये अंतर्दृष्टी मिळवा",
+
+  "footer.copyright": "© २०२४ कलाद्वार. सर्व हक्क राखीव.",
+  "footer.privacy": "गोपनीयता धोरण",
+  "footer.terms": "सेवा अटी",
+  "footer.support": "समर्थन",
+
+  "auth.buyer.title": "कला प्रेमी म्हणून सामील व्हा",
+  "auth.artisan.title": "कारागीर म्हणून सामील व्हा",
+  "auth.login.title": "परत स्वागत",
+  "auth.signup.title": "खाते तयार करा",
+  "auth.email": "ईमेल",
+  "auth.password": "पासवर्ड",
+  "auth.name": "पूर्ण नाव",
+  "auth.login.button": "साइन इन करा",
+  "auth.signup.button": "खाते तयार करा",
+  "auth.forgot": "पासवर्ड विसरलात?",
+  "auth.switch.login": "आधीच खाते आहे? साइन इन करा",
+  "auth.switch.signup": "खाते नाही? साइन अप करा"
+}

@@ -1,0 +1,43 @@
+{
+  "nav.home": "హోమ్",
+  "nav.artists": "కళాకారులు",
+  "nav.about": "మా గురించి",
+  "nav.contact": "సంప్రదింపులు",
+  "nav.login": "లాగిన్",
+  "nav.signup": "సైన్ అప్",
+  "nav.dashboard": "డాష్‌బోర్డ్",
+  "nav.logout": "లాగ్ అవుట్",
+
+  "hero.title": "కళ కలుస్తుంది ఆవిష్కరణతో",
+  "hero.subtitle": "AI-శక్తితో కూడిన డిజైన్ టూల్స్‌తో మాస్టర్ కళాకారులతో అద్భుతమైన కస్టమ్ కళను సహ-సృష్టించండి",
+  "hero.cta": "సృష్టించడం ప్రారంభించండి",
+  "hero.secondary": "కళాకారులను అన్వేషించండి",
+
+  "features.title": "ఇది ఎలా పనిచేస్తుంది",
+  "features.ai.title": "AI సహ-సృష్టి",
+  "features.ai.description": "ప్రాథమిక డిజైన్ భావనలను రూపొందించడానికి మరియు ఆలోచనలపై పునరావృతం చేయడానికి AI తో సహకరించండి",
+  "features.artisan.title": "ప్రత్యక్ష సహకారం",
+  "features.artisan.description": "మీ దృష్టిని జీవంతం చేసే నైపుణ్యం గల కళాకారులతో ప్రత్యక్షంగా పని చేయండి",
+  "features.storytelling.title": "డిజిటల్ కథనం",
+  "features.storytelling.description": "సృష్టి ప్రక్రియను డాక్యుమెంట్ చేసి మీ కళ యొక్క ప్రత్యేక కథను పంచుకోండి",
+  "features.insights.title": "వ్యాపార అంతర్దృష్టులు",
+  "features.insights.description": "పనితీరును ట్రాక్ చేసి మీ కస్టమ్ కళా ప్రాజెక్ట్‌లలో అంతర్దృష్టులను పొందండి",
+
+  "footer.copyright": "© 2024 కళాద్వార్. అన్ని హక్కులు రక్షించబడ్డాయి.",
+  "footer.privacy": "గోప్యతా విధానం",
+  "footer.terms": "సేవా నిబంధనలు",
+  "footer.support": "మద్దతు",
+
+  "auth.buyer.title": "కళా ప్రేమికుడిగా చేరండి",
+  "auth.artisan.title": "కళాకారుడిగా చేరండి",
+  "auth.login.title": "తిరిగి స్వాగతం",
+  "auth.signup.title": "ఖాతా సృష్టించండి",
+  "auth.email": "ఇమెయిల్",
+  "auth.password": "పాస్‌వర్డ్",
+  "auth.name": "పూర్తి పేరు",
+  "auth.login.button": "సైన్ ఇన్ చేయండి",
+  "auth.signup.button": "ఖాతా సృష్టించండి",
+  "auth.forgot": "పాస్‌వర్డ్ మర్చిపోయారా?",
+  "auth.switch.login": "ఇప్పటికే ఖాతా ఉందా? సైన్ ఇన్ చేయండి",
+  "auth.switch.signup": "ఖాతా లేదా? సైన్ అప్ చేయండి"
+}
