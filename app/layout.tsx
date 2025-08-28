@@ -18,7 +18,6 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "KalaDwar - Co-create Your Masterpiece",
   description: "From your imagination to a one-of-a-kind creation, powered by AI and traditional Indian artisans.",
-  generator: "v0.app",
 }
 
 export default function RootLayout({

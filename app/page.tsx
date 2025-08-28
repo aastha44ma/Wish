@@ -69,7 +69,7 @@ export default function KalaDwarHomepage() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('/placeholder-ee8q5.png')`,
+            backgroundImage: `url('/hero.png')`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/20"></div>
