@@ -65,7 +65,7 @@ export default function KalaDwarHomepage() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
+  <section className="relative aspect-[16/9] w-full flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-contain bg-center bg-no-repeat"
           style={{
