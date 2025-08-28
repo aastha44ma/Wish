@@ -74,7 +74,14 @@ export default function KalaDwarHomepage() {
         >
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/20"></div>
         </div>
-        <div className="relative z-10 container mx-auto px-4 text-center text-white">
+        <div className="relative z-10 container mx-auto px-4 text-center text-white flex flex-col items-center">
+          {/* Hero Image - visible and uncropped */}
+          <img 
+            src="/hero.png" 
+            alt="Hero" 
+            className="w-full max-w-md md:max-w-xl lg:max-w-2xl h-auto rounded-xl shadow-lg mb-8 object-contain bg-white/10"
+            style={{background: 'rgba(255,255,255,0.01)'}}
+          />
           <div className="max-w-3xl mx-auto">
             <h2 className="text-5xl md:text-7xl font-bold mb-6 font-serif">
               Co-create Your <span className="text-accent">Masterpiece</span>
