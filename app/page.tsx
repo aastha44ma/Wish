@@ -65,7 +65,7 @@ export default function KalaDwarHomepage() {
       </header>
 
       {/* Hero Section */}
-  <section className="relative aspect-[16/9] w-full flex items-center justify-center overflow-hidden">
+  <section className="relative w-full flex items-center justify-center overflow-hidden min-h-[60vw] md:aspect-[16/9] md:min-h-[80vh]">
         <div
           className="absolute inset-0 bg-contain bg-center bg-no-repeat"
           style={{
@@ -77,12 +77,6 @@ export default function KalaDwarHomepage() {
         <div className="relative z-10 container mx-auto px-4 text-center text-white flex flex-col items-center">
           {/* Hero content only, no foreground image */}
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-5xl md:text-7xl font-bold mb-6 font-serif">
-              Co-create Your <span className="text-accent">Masterpiece</span>
-            </h2>
-            <p className="text-xl md:text-2xl mb-8 text-gray-200">
-              From your imagination to a one-of-a-kind creation, powered by AI
-            </p>
             <Link href="/request-project">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg">
                 Start a Custom Project
@@ -96,7 +90,7 @@ export default function KalaDwarHomepage() {
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h3 className="text-4xl font-bold text-foreground mb-4 font-serif">How It Works</h3>
+            <h3 className="text-4xl font-bold text-foreground mb-4 font-serif">How It Works ?</h3>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Experience the perfect blend of traditional craftsmanship and modern technology
             </p>
@@ -159,7 +153,7 @@ export default function KalaDwarHomepage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-4 mb-6 md:mb-0">
-              <p className="text-sm">© 2024 KalaDwar. All rights reserved.</p>
+              <p className="text-sm">© 2025 KalaDwar. All rights reserved.</p>
               <div className="flex space-x-4">
                 <Facebook className="w-5 h-5 hover:text-accent cursor-pointer transition-colors" />
                 <Instagram className="w-5 h-5 hover:text-accent cursor-pointer transition-colors" />
