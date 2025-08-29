@@ -7,13 +7,12 @@ export default function Home() {
   return (
     <main className="grid">
       <section className="w-full grid border-b border-dashed">
-        <Header />
-      </section>
-
+      <Header />
       <Hero />
       <Features />
 
       <Footer />
+      </section>
     </main>
   )
 }
