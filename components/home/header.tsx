@@ -31,8 +31,10 @@ export default function Header() {
                 variant="outline"
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent flex items-center gap-2"
               >
+                <span className="flex items-center gap-2">
                 Login/Sign Up
                 <ChevronDown className="w-4 h-4" />
+                </span>
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-48">
