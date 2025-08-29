@@ -1,21 +1,21 @@
 import { type NextRequest, NextResponse } from "next/server"
 
 export async function POST(request: NextRequest) {
-  console.log("[v0] API route /api/generate-bio called")
+  console.log("[API route /api/generate-bio called")
 
   try {
     const body = await request.json()
-    console.log("[v0] Request body received:", body)
+    console.log("Request body received:", body)
 
     const { name, place, expertise, learningSource, experience } = body
 
     // Validate required fields
     if (!name || !place || !expertise || !learningSource || !experience) {
-      console.log("[v0] Validation failed - missing fields")
+      console.log("Validation failed - missing fields")
       return NextResponse.json({ error: "All fields are required" }, { status: 400 })
     }
 
-    console.log("[v0] All fields validated successfully")
+    console.log("All fields validated successfully")
 
     // Create a more sophisticated biography using the provided information
     const biographyTemplates = [
@@ -29,19 +29,19 @@ export async function POST(request: NextRequest) {
     // Select a random template for variety
     const selectedTemplate = biographyTemplates[Math.floor(Math.random() * biographyTemplates.length)]
 
-    console.log("[v0] Biography generated successfully")
+    console.log("Biography generated successfully")
 
     const response = { biography: selectedTemplate }
-    console.log("[v0] Sending response:", response)
+    console.log("Sending response:", response)
 
     return NextResponse.json(response)
   } catch (error) {
-    console.error("[v0] API Error generating biography:", error)
+    console.error("API Error generating biography:", error)
     return NextResponse.json({ error: "Failed to generate biography" }, { status: 500 })
   }
 }
 
 export async function GET() {
-  console.log("[v0] API route GET method called - route is accessible")
+  console.log("API route GET method called - route is accessible")
   return NextResponse.json({ message: "Biography API is working" })
 }

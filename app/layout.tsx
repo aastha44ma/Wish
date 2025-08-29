@@ -1,33 +1,24 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Space_Grotesk, DM_Sans } from "next/font/google"
-import "./globals.css"
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
 
-const spaceGrotesk = Space_Grotesk({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-space-grotesk",
-})
-
-const dmSans = DM_Sans({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-dm-sans",
-})
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "KalaDwar - Co-create Your Masterpiece",
-  description: "From your imagination to a one-of-a-kind creation, powered by AI and traditional Indian artisans.",
-}
+  title: "KalaDwar",
+  description: "Marketplace for artisans and customers",
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${spaceGrotesk.variable} ${dmSans.variable} antialiased`}>
-      <body className="font-sans">{children}</body>
+    <html lang="en">
+      <body className={`${inter.className} bg-background dark`}>
+        {children}
+      </body>
     </html>
-  )
+  );
 }
